@@ -13,7 +13,7 @@ let rootURL = 'https://www.fifaindex.com/team/11/manchester-utd/';
 
 
 //connect to mlab db
-const db = 'mongodb://garlic:tpzaitpzai66@ds249873.mlab.com:49873/gql-football';
+const db = 'mongodb://<user>:<password>@ds249873.mlab.com:49873/gql-football';
 mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true });
 
 

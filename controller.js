@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 let rootURL = 'https://www.fifaindex.com/team/11/manchester-utd/';
 
 //connect to mlab db
-// const mdb = 'mongodb://garlic:tpzaitpzai66@ds249873.mlab.com:49873/gql-football';
+// const mdb = 'mongodb://<user>:<password>@ds249873.mlab.com:49873/gql-football';
 // const db = mongoose.connection
 // db.once('open', () => {
 //     console.log("connected !");
