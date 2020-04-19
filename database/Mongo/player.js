@@ -1,0 +1,45 @@
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const playerSchema = new Schema({
+    id: String,
+    name: String,
+    position: Array,
+    club: String,
+    Ability: String,
+    Acceleration: Number,
+    Aggression: Number,
+    Agility: Number,
+    AttPosition: Number,
+    Balance: Number,
+    BallControl: Number,
+    Composure: Number,
+    Crossing: Number,
+    Curve: Number,
+    Dribbling: Number,
+    FkAcc: Number,
+    Finishing: Number,
+    GKDiving: Number,
+    GKHandling: Number,
+    GKPositioning: Number,
+    GKReflexes: Number,
+    Heading: Number,
+    Interception: Number,
+    Jumping: Number,
+    LongPass: Number,
+    LongShots: Number,
+    Marking: Number,
+    Penalties: Number,
+    Reaction: Number,
+    ShortPass: Number,
+    ShotPower: Number,
+    SlideTackle: Number,
+    SprintSpeed: Number,
+    Stamina: Number,
+    StandTackle: Number,
+    Strength: Number,
+    Vision: Number,
+    Volleys: Number
+});
+
+module.exports = mongoose.model('Player', playerSchema);
